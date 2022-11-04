@@ -7,7 +7,7 @@ function Header(props, bgColor, textColor) {
     backgroundColor: bgColor,
   };
 
-  return <header style={headerStyles}>This is the {props.text} header</header>;
+  return <header style={headerStyles}>{props.text}</header>;
 }
 
 Header.defaultProps = {
