@@ -13,4 +13,3 @@ function FeedBackItem() {
 }
 
 export default FeedBackItem;
-//
